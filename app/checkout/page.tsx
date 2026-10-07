@@ -409,7 +409,7 @@ export default function CheckoutPage() {
                     type="submit" 
                     className="w-full" 
                     size="lg"
-                    disabled={loading || (paymentMethod === 'wallet' && user && user.balance < finalTotal)}
+                    disabled={loading || (paymentMethod === 'wallet' && !!user && user.balance < finalTotal)}
                   >
                     {loading ? 'Processing...' : `Place Order - $${finalTotal.toFixed(2)}`}
                   </Button>

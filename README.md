@@ -1,4 +1,4 @@
-#E-Commerce Web Application
+# E-Commerce Web Application 
 A responsive, full-stack-style e-commerce frontend built with the Next.js App Router. Users can browse a product catalog, search and filter items, add products to a cart, and complete purchases using a simulated wallet balance.
 
 Key features
